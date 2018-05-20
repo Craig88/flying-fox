@@ -1,4 +1,4 @@
-
+import pgzrun
 WIDTH = 800
 HEIGHT = 400
 game_over = False
@@ -49,3 +49,6 @@ def update():
     collision = car.colliderect(fox)
     if collision:
         print("Oh no!")
+
+
+pgzrun.go()
